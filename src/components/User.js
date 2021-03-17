@@ -63,7 +63,7 @@ class User extends Component {
         const { array } = this.state;
         return (
             <div className="user-container">
-                <h1>Table with Collapsed Borders</h1>
+                <h1>List of User</h1>
 
                 <table className="table table-bordered dataTable" id="dataTable" width="100%" cellSpacing={0} role="grid" aria-describedby="dataTable_info" style={{ width: '100%' }}>
                     <thead>
